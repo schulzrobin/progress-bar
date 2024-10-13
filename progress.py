@@ -84,8 +84,8 @@ def application(environ, start_response):
 
 
 def standalone():
-    print("Serving progress bar on port 80.")
-    print("----------------------------------------------")
+    print("----------progress-bar v.0.0.1----------")
+    print("----------------------------------------")
     print("Open in Webbrowser to show progress bar.")
     print("Example: IP/progress/0-100")
     from wsgiref.simple_server import make_server
